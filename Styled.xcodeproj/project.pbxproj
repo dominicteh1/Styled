@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CADF050D2C92911E004EFCA4 /* Style.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Style.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADF050D2C92911E004EFCA4 /* Styled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Styled.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADF05102C92911E004EFCA4 /* StyleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleApp.swift; sourceTree = "<group>"; };
 		CADF05122C92911E004EFCA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CADF05142C92911F004EFCA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		CADF05042C92911E004EFCA4 = {
 			isa = PBXGroup;
 			children = (
-				CADF050F2C92911E004EFCA4 /* Style */,
+				CADF050F2C92911E004EFCA4 /* Styled */,
 				CADF050E2C92911E004EFCA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,12 +43,12 @@
 		CADF050E2C92911E004EFCA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CADF050D2C92911E004EFCA4 /* Style.app */,
+				CADF050D2C92911E004EFCA4 /* Styled.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CADF050F2C92911E004EFCA4 /* Style */ = {
+		CADF050F2C92911E004EFCA4 /* Styled */ = {
 			isa = PBXGroup;
 			children = (
 				CADF05102C92911E004EFCA4 /* StyleApp.swift */,
@@ -56,7 +56,7 @@
 				CADF05142C92911F004EFCA4 /* Assets.xcassets */,
 				CADF05162C92911F004EFCA4 /* Preview Content */,
 			);
-			path = Style;
+			path = Styled;
 			sourceTree = "<group>";
 		};
 		CADF05162C92911F004EFCA4 /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CADF050C2C92911E004EFCA4 /* Style */ = {
+		CADF050C2C92911E004EFCA4 /* Styled */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CADF051B2C92911F004EFCA4 /* Build configuration list for PBXNativeTarget "Style" */;
+			buildConfigurationList = CADF051B2C92911F004EFCA4 /* Build configuration list for PBXNativeTarget "Styled" */;
 			buildPhases = (
 				CADF05092C92911E004EFCA4 /* Sources */,
 				CADF050A2C92911E004EFCA4 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Style;
+			name = Styled;
 			productName = Style;
-			productReference = CADF050D2C92911E004EFCA4 /* Style.app */;
+			productReference = CADF050D2C92911E004EFCA4 /* Styled.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CADF05082C92911E004EFCA4 /* Build configuration list for PBXProject "Style" */;
+			buildConfigurationList = CADF05082C92911E004EFCA4 /* Build configuration list for PBXProject "Styled" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CADF050C2C92911E004EFCA4 /* Style */,
+				CADF050C2C92911E004EFCA4 /* Styled */,
 			);
 		};
 /* End PBXProject section */
@@ -271,7 +271,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Style/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Styled/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -284,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.cmuis.67443.Style;
+				PRODUCT_BUNDLE_IDENTIFIER = net.cmuis.67443.Styled;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -299,7 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Style/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Styled/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -312,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.cmuis.67443.Style;
+				PRODUCT_BUNDLE_IDENTIFIER = net.cmuis.67443.Styled;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CADF05082C92911E004EFCA4 /* Build configuration list for PBXProject "Style" */ = {
+		CADF05082C92911E004EFCA4 /* Build configuration list for PBXProject "Styled" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CADF05192C92911F004EFCA4 /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CADF051B2C92911F004EFCA4 /* Build configuration list for PBXNativeTarget "Style" */ = {
+		CADF051B2C92911F004EFCA4 /* Build configuration list for PBXNativeTarget "Styled" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CADF051C2C92911F004EFCA4 /* Debug */,
