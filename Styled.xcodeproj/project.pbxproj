@@ -35,7 +35,7 @@
 		CADF05042C92911E004EFCA4 = {
 			isa = PBXGroup;
 			children = (
-				CADF050F2C92911E004EFCA4 /* Style */,
+				CADF050F2C92911E004EFCA4 /* Styled */,
 				CADF050E2C92911E004EFCA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,7 +48,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CADF050F2C92911E004EFCA4 /* Style */ = {
+		CADF050F2C92911E004EFCA4 /* Styled */ = {
 			isa = PBXGroup;
 			children = (
 				CADF05102C92911E004EFCA4 /* StyleApp.swift */,
@@ -56,7 +56,7 @@
 				CADF05142C92911F004EFCA4 /* Assets.xcassets */,
 				CADF05162C92911F004EFCA4 /* Preview Content */,
 			);
-			path = Style;
+			path = Styled;
 			sourceTree = "<group>";
 		};
 		CADF05162C92911F004EFCA4 /* Preview Content */ = {
@@ -271,7 +271,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Style/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Styled/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -284,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.cmuis.67443.Style;
+				PRODUCT_BUNDLE_IDENTIFIER = net.cmuis.67443.Styled;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -299,7 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Style/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Styled/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -312,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.cmuis.67443.Style;
+				PRODUCT_BUNDLE_IDENTIFIER = net.cmuis.67443.Styled;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
