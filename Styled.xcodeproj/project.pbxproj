@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA26ABDC2C9C6C4300A849C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA26ABDB2C9C6C4300A849C2 /* GoogleService-Info.plist */; };
 		CA26ABDF2C9C6CA900A849C2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CA26ABDE2C9C6CA900A849C2 /* FirebaseAnalytics */; };
 		CA26ABE12C9C6CA900A849C2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CA26ABE02C9C6CA900A849C2 /* FirebaseAuth */; };
 		CA26ABE32C9C6CA900A849C2 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CA26ABE22C9C6CA900A849C2 /* FirebaseAuthCombine-Community */; };
@@ -18,6 +17,10 @@
 		CA26ABED2C9C6CA900A849C2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CA26ABEC2C9C6CA900A849C2 /* FirebaseStorage */; };
 		CA26ABEF2C9C6CA900A849C2 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CA26ABEE2C9C6CA900A849C2 /* FirebaseStorageCombine-Community */; };
 		CA26ABF42C9CBDC800A849C2 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA26ABF32C9CBDC800A849C2 /* RegistrationView.swift */; };
+		CA87CC482CA46B1400AD1595 /* BackgroundRemovalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87CC472CA46B1400AD1595 /* BackgroundRemovalView.swift */; };
+		CA87CC4A2CA4702900AD1595 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA87CC492CA4702900AD1595 /* GoogleService-Info.plist */; };
+		CA87CC4C2CA4728A00AD1595 /* BackgroundRemoval.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87CC4B2CA4727B00AD1595 /* BackgroundRemoval.swift */; };
+		CA87CC4E2CA4751000AD1595 /* UIImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87CC4D2CA4750E00AD1595 /* UIImagePickerController.swift */; };
 		CADF05112C92911E004EFCA4 /* StyleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF05102C92911E004EFCA4 /* StyleApp.swift */; };
 		CADF05132C92911E004EFCA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF05122C92911E004EFCA4 /* ContentView.swift */; };
 		CADF05152C92911F004EFCA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADF05142C92911F004EFCA4 /* Assets.xcassets */; };
@@ -25,8 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CA26ABDB2C9C6C4300A849C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CA26ABF32C9CBDC800A849C2 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		CA87CC472CA46B1400AD1595 /* BackgroundRemovalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRemovalView.swift; sourceTree = "<group>"; };
+		CA87CC492CA4702900AD1595 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CA87CC4B2CA4727B00AD1595 /* BackgroundRemoval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRemoval.swift; sourceTree = "<group>"; };
+		CA87CC4D2CA4750E00AD1595 /* UIImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePickerController.swift; sourceTree = "<group>"; };
 		CADF050D2C92911E004EFCA4 /* Styled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Styled.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADF05102C92911E004EFCA4 /* StyleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleApp.swift; sourceTree = "<group>"; };
 		CADF05122C92911E004EFCA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +66,7 @@
 				CADF05102C92911E004EFCA4 /* StyleApp.swift */,
 				CADF05122C92911E004EFCA4 /* ContentView.swift */,
 				CA26ABF32C9CBDC800A849C2 /* RegistrationView.swift */,
+				CA87CC472CA46B1400AD1595 /* BackgroundRemovalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -67,6 +74,7 @@
 		CA26ABF12C9CBD1900A849C2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CA87CC4D2CA4750E00AD1595 /* UIImagePickerController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -74,6 +82,7 @@
 		CA26ABF22C9CBD1E00A849C2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CA87CC4B2CA4727B00AD1595 /* BackgroundRemoval.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -100,7 +109,7 @@
 				CA26ABF22C9CBD1E00A849C2 /* Models */,
 				CA26ABF12C9CBD1900A849C2 /* Controllers */,
 				CA26ABF02C9CBD1100A849C2 /* Views */,
-				CA26ABDB2C9C6C4300A849C2 /* GoogleService-Info.plist */,
+				CA87CC492CA4702900AD1595 /* GoogleService-Info.plist */,
 				CADF05142C92911F004EFCA4 /* Assets.xcassets */,
 				CADF05162C92911F004EFCA4 /* Preview Content */,
 			);
@@ -177,8 +186,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CADF05182C92911F004EFCA4 /* Preview Assets.xcassets in Resources */,
+				CA87CC4A2CA4702900AD1595 /* GoogleService-Info.plist in Resources */,
 				CADF05152C92911F004EFCA4 /* Assets.xcassets in Resources */,
-				CA26ABDC2C9C6C4300A849C2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,9 +198,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA87CC4E2CA4751000AD1595 /* UIImagePickerController.swift in Sources */,
 				CA26ABF42C9CBDC800A849C2 /* RegistrationView.swift in Sources */,
 				CADF05132C92911E004EFCA4 /* ContentView.swift in Sources */,
 				CADF05112C92911E004EFCA4 /* StyleApp.swift in Sources */,
+				CA87CC4C2CA4728A00AD1595 /* BackgroundRemoval.swift in Sources */,
+				CA87CC482CA46B1400AD1595 /* BackgroundRemovalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
