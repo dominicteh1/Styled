@@ -13,6 +13,7 @@ struct RegistrationView: View {
   @State private var email: String = ""
   @State private var password: String = ""
   @State private var errorMessage: String?
+  @State private var isRegistered = false // State to manage navigation
   
   var body: some View {
     VStack {
@@ -39,6 +40,11 @@ struct RegistrationView: View {
           .background(Color.blue)
           .cornerRadius(8)
       }
+      
+      // Navigation link to the main app view
+      NavigationLink(destination: AppView(), isActive: $isRegistered) {
+        EmptyView() // Hidden navigation link
+      }
     }
     .padding()
   }
@@ -49,6 +55,7 @@ struct RegistrationView: View {
         self.errorMessage = "Failed to register: \(error.localizedDescription)"
       } else {
         self.errorMessage = "Successfully registered!"
+        self.isRegistered = true
         // Proceed to next steps (e.g., navigate to a different view)
       }
     }
