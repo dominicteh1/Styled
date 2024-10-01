@@ -31,7 +31,7 @@ struct StyleApp: App {
   
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          BackgroundRemovalView()
         }
     }
 }
