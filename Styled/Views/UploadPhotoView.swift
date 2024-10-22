@@ -9,10 +9,21 @@ import SwiftUI
 
 struct UploadPhotoView: View {
   var body: some View {
-    VStack {
-      Text("Upload Photo")
-        .font(.title)
-        .fontWeight(.bold)
+    NavigationView {
+      VStack {
+        Text("Upload Photo")
+          .font(.title)
+          .fontWeight(.bold)
+        
+        NavigationLink(destination: BackgroundRemovalView()) {
+          Text("Go to Upload Photo")
+            .font(.title2)
+            .padding()
+            .background(Color.blue)
+            .foregroundColor(.white)
+            .cornerRadius(10)
+        }
+      }
     }
   }
 }
