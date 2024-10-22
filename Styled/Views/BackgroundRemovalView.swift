@@ -155,7 +155,6 @@ struct BackgroundRemovalView: View {
       print("Failed to convert image to JPEG data.")
       return
     }
-    
     // Get the current user's UID
     guard let userId = Auth.auth().currentUser?.uid else {
       print("User is not authenticated.")
@@ -163,7 +162,7 @@ struct BackgroundRemovalView: View {
     }
     
     // Create a unique file path in Firebase Storage
-    let storageRef = Storage.storage().reference().child("images/\(userId)/\(UUID().uuidString).jpg")
+    let storageRef = Storage.storage().reference().child("users/\(userId)/photos/\(UUID().uuidString).jpg")
     
     // Upload the image data to Firebase Storage
     storageRef.putData(imageData, metadata: nil) { metadata, error in
