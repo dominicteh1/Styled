@@ -22,6 +22,25 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     FirebaseApp.configure()
     return true
   }
+  
+  func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+    if url.scheme == "styleapp" {
+      // Handle the redirect and extract any parameters
+      if let code = extractAuthorizationCode(from: url) {
+        // Use the authorization code
+        exchangeCodeForToken(authCode: code)
+      }
+      return true
+    }
+    return false
+  }
+  
+  func extractAuthorizationCode(from url: URL) -> String? {
+    guard let components = URLComponents(url: url, resolvingAgainstBaseURL: false),
+          let queryItems = components.queryItems else { return nil }
+    
+    return queryItems.first(where: { $0.name == "code" })?.value
+  }
 }
 
 @main

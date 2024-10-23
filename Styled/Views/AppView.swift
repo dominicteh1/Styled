@@ -15,7 +15,7 @@ struct AppView: View {
           Image(systemName: "tshirt.fill")
           Text("Closet")
         }
-      SearchView()
+      PinterestView()
         .tabItem {
           Image(systemName: "magnifyingglass")
           Text("Search")

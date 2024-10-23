@@ -12,7 +12,7 @@
 		CA1EC5032CA3A39A000C9CBA /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC5022CA3A374000C9CBA /* FriendsView.swift */; };
 		CA1EC5052CA3A3A6000C9CBA /* MyAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC5042CA3A39F000C9CBA /* MyAccountView.swift */; };
 		CA1EC5072CA3A3B0000C9CBA /* UploadPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC5062CA3A3AA000C9CBA /* UploadPhotoView.swift */; };
-		CA1EC5092CA3A3BF000C9CBA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC5082CA3A3BC000C9CBA /* SearchView.swift */; };
+		CA1EC5092CA3A3BF000C9CBA /* PinterestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC5082CA3A3BC000C9CBA /* PinterestView.swift */; };
 		CA1EC50B2CA3A411000C9CBA /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC50A2CA3A40F000C9CBA /* AppView.swift */; };
 		CA26ABDF2C9C6CA900A849C2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CA26ABDE2C9C6CA900A849C2 /* FirebaseAnalytics */; };
 		CA26ABE12C9C6CA900A849C2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CA26ABE02C9C6CA900A849C2 /* FirebaseAuth */; };
@@ -26,6 +26,7 @@
 		CA26ABF42C9CBDC800A849C2 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA26ABF32C9CBDC800A849C2 /* RegistrationView.swift */; };
 		CA73E75D2CC834A700C73E21 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73E75C2CC834A700C73E21 /* LoginView.swift */; };
 		CA73E7602CC8539700C73E21 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CA73E75F2CC8539700C73E21 /* SDWebImageSwiftUI */; };
+		CA73E7632CC8787000C73E21 /* OAuthSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CA73E7622CC8787000C73E21 /* OAuthSwift */; };
 		CA87CC482CA46B1400AD1595 /* BackgroundRemovalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87CC472CA46B1400AD1595 /* BackgroundRemovalView.swift */; };
 		CA87CC4C2CA4728A00AD1595 /* BackgroundRemoval.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87CC4B2CA4727B00AD1595 /* BackgroundRemoval.swift */; };
 		CA87CC4E2CA4751000AD1595 /* UIImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87CC4D2CA4750E00AD1595 /* UIImagePickerController.swift */; };
@@ -41,10 +42,11 @@
 		CA1EC5022CA3A374000C9CBA /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		CA1EC5042CA3A39F000C9CBA /* MyAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountView.swift; sourceTree = "<group>"; };
 		CA1EC5062CA3A3AA000C9CBA /* UploadPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPhotoView.swift; sourceTree = "<group>"; };
-		CA1EC5082CA3A3BC000C9CBA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		CA1EC5082CA3A3BC000C9CBA /* PinterestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestView.swift; sourceTree = "<group>"; };
 		CA1EC50A2CA3A40F000C9CBA /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		CA26ABF32C9CBDC800A849C2 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		CA73E75C2CC834A700C73E21 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CA73E7642CC889BA00C73E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CA87CC472CA46B1400AD1595 /* BackgroundRemovalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRemovalView.swift; sourceTree = "<group>"; };
 		CA87CC4B2CA4727B00AD1595 /* BackgroundRemoval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRemoval.swift; sourceTree = "<group>"; };
 		CA87CC4D2CA4750E00AD1595 /* UIImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePickerController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				CA26ABED2C9C6CA900A849C2 /* FirebaseStorage in Frameworks */,
 				CA26ABE12C9C6CA900A849C2 /* FirebaseAuth in Frameworks */,
 				CA26ABEF2C9C6CA900A849C2 /* FirebaseStorageCombine-Community in Frameworks */,
+				CA73E7632CC8787000C73E21 /* OAuthSwift in Frameworks */,
 				CA26ABE92C9C6CA900A849C2 /* FirebaseInAppMessaging-Beta in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,7 +84,7 @@
 			children = (
 				CA1EC50A2CA3A40F000C9CBA /* AppView.swift */,
 				CA1EC5002CA3A35F000C9CBA /* ClosetView.swift */,
-				CA1EC5082CA3A3BC000C9CBA /* SearchView.swift */,
+				CA1EC5082CA3A3BC000C9CBA /* PinterestView.swift */,
 				CA1EC5062CA3A3AA000C9CBA /* UploadPhotoView.swift */,
 				CA1EC5022CA3A374000C9CBA /* FriendsView.swift */,
 				CA1EC5042CA3A39F000C9CBA /* MyAccountView.swift */,
@@ -130,6 +133,7 @@
 		CADF050F2C92911E004EFCA4 /* Styled */ = {
 			isa = PBXGroup;
 			children = (
+				CA73E7642CC889BA00C73E21 /* Info.plist */,
 				CA0E369F2CACA3F200AFE456 /* GoogleService-Info.plist */,
 				CA26ABF22C9CBD1E00A849C2 /* Models */,
 				CA26ABF12C9CBD1900A849C2 /* Controllers */,
@@ -202,6 +206,7 @@
 			packageReferences = (
 				CA26ABDD2C9C6CA900A849C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				CA73E75E2CC8539700C73E21 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				CA73E7612CC8787000C73E21 /* XCRemoteSwiftPackageReference "OAuthSwift" */,
 			);
 			productRefGroup = CADF050E2C92911E004EFCA4 /* Products */;
 			projectDirPath = "";
@@ -237,7 +242,7 @@
 				CA87CC4E2CA4751000AD1595 /* UIImagePickerController.swift in Sources */,
 				CA26ABF42C9CBDC800A849C2 /* RegistrationView.swift in Sources */,
 				CADF05132C92911E004EFCA4 /* ContentView.swift in Sources */,
-				CA1EC5092CA3A3BF000C9CBA /* SearchView.swift in Sources */,
+				CA1EC5092CA3A3BF000C9CBA /* PinterestView.swift in Sources */,
 				CA1EC5052CA3A3A6000C9CBA /* MyAccountView.swift in Sources */,
 				CA1EC5072CA3A3B0000C9CBA /* UploadPhotoView.swift in Sources */,
 				CADF05112C92911E004EFCA4 /* StyleApp.swift in Sources */,
@@ -378,6 +383,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Styled/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Styled/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -406,6 +412,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Styled/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Styled/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -464,6 +471,14 @@
 				minimumVersion = 3.1.2;
 			};
 		};
+		CA73E7612CC8787000C73E21 /* XCRemoteSwiftPackageReference "OAuthSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OAuthSwift/OAuthSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -516,6 +531,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CA73E75E2CC8539700C73E21 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		CA73E7622CC8787000C73E21 /* OAuthSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA73E7612CC8787000C73E21 /* XCRemoteSwiftPackageReference "OAuthSwift" */;
+			productName = OAuthSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
